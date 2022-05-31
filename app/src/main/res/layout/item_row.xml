@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<TableRow
+		android:padding="10dp">
+
+		<TextView
+			android:id="@+id/txt_name"
+			android:textStyle="bold"
+			tools:text="Construir o seu CV online"
+			android:textColor="#424242"
+			android:gravity="center_vertical"
+			android:layout_width="110dp"
+			android:layout_column="0"
+			android:minLines="2"
+			android:layout_weight="1">
+		</TextView>
+
+		<androidx.appcompat.widget.AppCompatImageView
+			android:src="@drawable/ic_check"
+			android:layout_width="15dp"
+			android:gravity="center_horizontal"
+			android:layout_column="1"
+			android:layout_weight="1" />
+
+		<androidx.appcompat.widget.AppCompatImageView
+			android:src="@drawable/ic_check"
+			android:layout_width="15dp"
+			android:gravity="center_horizontal"
+			android:layout_column="0"
+			android:layout_weight="1" />
+
+		<androidx.appcompat.widget.AppCompatImageView
+			android:gravity="center_horizontal"
+			android:src="@drawable/ic_check"
+			android:layout_width="15dp"
+			android:layout_column="0"
+			android:layout_weight="1" />
+
+	</TableRow>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@android:color/darker_gray"/>
+</TableLayout>
